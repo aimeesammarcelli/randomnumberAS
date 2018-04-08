@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html>
-<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="main.css">
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
 
-  <h1>Bonne journée mon cheri </h1>
-  <i class="em em-heart"></i>
+  <body>
+    <div class="container">
+      <h1>Bonne journée mon coeur.</h1>
+      <p id="generated-number">
+        <svg id="loader" viewBox="0 0 340 340">
+        <circle cx="170" cy="170" r="160"/>
+        <circle cx="170" cy="170" r="135"/>
+        <circle cx="170" cy="170" r="110"/>
+        <circle cx="170" cy="170" r="85"/>
+        </svg>
+      </p>
+      <p id="emoji"></p>
+      <a type="button" value="Generate" id="generate-button">Press me </a>
+      <p>Je t'aime trés fort</p>
+    </div>
 
-
-  <div class="button">
-
-  <button onclick="myFunction()" type="button" class="btn btn-primary btn-lg">Press me</button>
-
-  </div>
-
-  <div class="nbs">
-    <p id="demo"></p>
-
-  </div>
-
-  <script>
-  function myFunction() {
-    var x = document.getElementById("demo")
-    x.innerHTML = Math.floor((Math.random() * 100) + 0);
-  }
-
-</script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
