@@ -1,5 +1,5 @@
 function generateNumber() {
-  var number = Math.floor(Math.random() * 100 + 1);
+  var number = Math.floor(Math.random() * 100 + 40);
   return number;
 }
 

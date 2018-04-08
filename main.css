@@ -14,12 +14,12 @@ body {
   height: 100vh;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  background-color: #F6717A ; }
+  color: #E7E4DD ;
+  background-color: #7996A5  ; }
 
 ::selection {
-  background-color: #F6717A ;
-  color: #caf2f7; }
+  background-color: #7996A5  ;
+  color: #E7E4DD ; }
 
 h1 {
   font-size: 40px;
@@ -43,7 +43,7 @@ h1 {
 
 circle {
   fill: none;
-  stroke: white;
+  stroke: #E7E4DD ;
   stroke-width: 10;
   animation-name: preloader;
   animation-duration: 3s;
@@ -75,7 +75,7 @@ circle {
 #generated-number {
   height: 100px;
   font-size: 100px;
-  color: #ffffff; }
+  color: #E7E4DD ; }
 
 #emoji {
   height: 50px;
@@ -87,7 +87,7 @@ circle {
   margin-bottom: 20px;
   text-align: center;
   padding: 15px 70px;
-  color: #F6717A ;
+  color: red  ;
   background-color: white;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -99,7 +99,7 @@ circle {
 }
 
 #generate-button:active {
-  background-color: #111563; }
+  background-color: #E7E4DD ; }
 
 #emoji-keyboard {
   font-size: 30px;
